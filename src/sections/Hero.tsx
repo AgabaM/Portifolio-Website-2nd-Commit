@@ -103,7 +103,7 @@ const Hero = () => {
     {/* Added styling and margin bottom */}
     <p className="text-lg mb-8 lg:text-1xl leading-relaxed mt-4 text-center text-white/60">
       I specialize in transforming designs into functional, high-performing web
-      applications. Let's discuss your next project.
+      applications. Let&apos;s discuss your next project.
     </p>
   </div>
 
@@ -114,7 +114,7 @@ const Hero = () => {
   </button>
   <button className="inline-flex items-center justify-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl w-full md:w-auto">
     <span className="font-sans">👋</span>
-    <span className="font-semibold">Let's Connect</span>
+    <span className="font-semibold">Let&apos;s Connect</span>
   </button>
 </div>
 
