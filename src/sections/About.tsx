@@ -19,7 +19,7 @@ import ToolboxItems from "@/components/ToolboxItems";
 import { AnimatePresence, motion } from "framer-motion";
 import { useRef, useState } from 'react';
 import bible from '@/assets/images/Bible-cover.jpg';
-import Dare from '@/assets/images/Dare-to-lead.jpg';
+//import Dare from '@/assets/images/Dare-to-lead.jpg';
 import RichDad from '@/assets/images/Rich-Dad.jpg';
 import sevenHabbits from '@/assets/images/seven-habbits1.jpg';
 import Thinking from '@/assets/images/Thinking.jpg'
@@ -100,7 +100,7 @@ const hobbies = [
 
 const AboutSection = () => {
   const constraintRef = useRef(null);
-  const bookImages = [BookImage, RichDad, sevenHabbits, Dare, people, bible, Thinking]; // Replace with actual paths
+  const bookImages = [BookImage, RichDad, sevenHabbits, people, bible, Thinking]; // Replace with actual paths
   const [currentBookImageIndex, setCurrentBookImageIndex] = useState(0);
 
   const nextBookImage = () => {
